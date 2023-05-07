@@ -1,0 +1,21 @@
+.BtnStyle {
+    padding: 12px 55px;
+    gap: 10px;
+    border: none;
+    background: linear-gradient(0deg, #E73C3C, #E73C3C), #FFFFFF;
+    border-radius: 24px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FCFCFC;
+}
+
+.BtnStyle:hover {
+    background: linear-gradient(0deg, #c93434, #c93434), #FCFCFC;
+}
+
+.BtnStyle:active {
+    background: linear-gradient(0deg, #8e2424, #8e2424), #FCFCFC;
+}

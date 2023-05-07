@@ -1,0 +1,32 @@
+.FormDivWrapLink{
+    display: flex;
+    justify-content: center;
+    margin: 1% 0 3%;
+}
+
+.FormContent{
+    display: block;
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 13px;
+    color: #FCFCFC;
+    margin: 0 5px 0 0;
+    
+}
+
+.FormLinkWrap{
+    text-decoration: none;
+}
+
+.FormLink{
+    display: block;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    color: #FCFCFC;
+    text-decoration: none;
+    border-bottom: solid 1px #FCFCFC;
+    margin-top: 0;
+}
