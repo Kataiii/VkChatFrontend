@@ -1,0 +1,62 @@
+.MainDiv{
+    display: flex;
+    width: 100%;
+}
+
+.SidePanel{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    max-height: 476px;
+    background: #4A4A4A;
+    border-radius: 0px 20px 20px 0px;
+    padding: 36px;
+    overflow: auto;
+}
+
+.SidePanel::-webkit-scrollbar{
+    width: 8px;
+}
+
+.SidePanel::-webkit-scrollbar-track{
+    background-color: #313131;
+    border-radius: 100px;
+    margin: 40px 5px;
+}
+
+.SidePanel::-webkit-scrollbar-thumb {
+    background-color: #E73C3C;
+    border-radius: 100px;
+}
+
+.LinkPersonal{
+    display: block;
+    font-family: 'Ubuntu'; 
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    color: #FCFCFC;
+    text-decoration: none;
+    margin: 12.5px 10px 12.5px 0;
+}
+
+.LinkPersonalActive{
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    color: #fcfcfc;
+    text-decoration: none;
+    margin: 12.5px 10px 12.5px 0;
+    font-weight: 500;
+}
+
+.DivsWrap{
+    margin-top: 8%;
+    width: 100%;
+    display: flex;
+}
+
+.DivWrapPageContent{
+    margin-left: 34px;
+}

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import styles from "../css/HeaderForm.module.css"
+import styles from "../css/Header.module.css"
 
 interface IHeaderFormProps{
     formContent : string,

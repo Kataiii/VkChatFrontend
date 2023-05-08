@@ -1,8 +1,15 @@
+.FormDivWrap{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .FormDiv{
     background: #4A4A4A;
     border-radius: 20px;
     width: 30%;
-    margin: 8% auto;
+    margin: 0 auto;
     padding: 1%;
     text-align: center;
 }
@@ -11,7 +18,7 @@
     background: #4A4A4A;
     border-radius: 20px;
     width: 30%;
-    margin: 1.5% auto 0;
+    margin: 0 auto;
     padding: 1% 1% 2%;
     text-align: center;
 }

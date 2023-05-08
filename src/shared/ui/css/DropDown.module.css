@@ -1,0 +1,33 @@
+.BtnMenu {
+    background-color: #FCFCFC;
+}
+
+.AntButton {
+    background-color: #61dafb;
+}
+
+.PText {
+    color: #313131;
+    font-size: 13px;
+    line-height: 18.2px;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    display: block;
+}
+
+.Aaa {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 30px;
+    color: #FCFCFC;
+    background: #313131;
+    border-radius: 10px 0px 10px 10px;
+    cursor: pointer;
+    padding: 5%;
+}
+
+.DropdownMenuWrapper {
+    margin-right: 12%;
+}

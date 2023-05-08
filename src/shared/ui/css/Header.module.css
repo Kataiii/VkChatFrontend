@@ -1,10 +1,10 @@
-.FormDivWrapLink{
+.FormDivWrapLink {
     display: flex;
     justify-content: center;
     margin: 1% 0 3%;
 }
 
-.FormContent{
+.FormContent {
     display: block;
     font-family: 'Ubuntu';
     font-style: italic;
@@ -12,14 +12,14 @@
     font-size: 13px;
     color: #FCFCFC;
     margin: 0 5px 0 0;
-    
+
 }
 
-.FormLinkWrap{
+.FormLinkWrap {
     text-decoration: none;
 }
 
-.FormLink{
+.FormLink {
     display: block;
     font-family: 'Ubuntu';
     font-style: normal;
@@ -29,4 +29,14 @@
     text-decoration: none;
     border-bottom: solid 1px #FCFCFC;
     margin-top: 0;
+}
+
+.AuthHeader {
+    width: 100%;
+    padding: 1% 0%;
+    display: flex;
+    justify-content: end;
+    background-color: #FCFCFC;
+    position: absolute;
+    top: 0;
 }

@@ -1,6 +1,11 @@
+import RegistForm from "../widgets/RegistForm";
+
+
 const RegisterPage = () => {
     return(
-        <div></div>
+        <div>
+            <RegistForm/>
+        </div>
     )
 }
 

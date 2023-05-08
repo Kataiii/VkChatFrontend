@@ -11,19 +11,19 @@ const ProfileRoutes = {
     errorElement: <ErrorPage />,
     children: [
         {
-            path: '/profile/:id',
+            path: ':id',
             element: <ProfilePage />
         },
         {
-            path: '/profile/friends',
+            path: 'friends',
             element: <FriendsPage />
         },
         {
-            path: 'profile/news',
+            path: 'news',
             element: <NewsPage />
         },
         {
-            path: '/profile/chats',
+            path: 'chats',
             element: <ChatsPage />
         }
     ]
