@@ -1,0 +1,41 @@
+.DivAddPost{
+    background: #9E9E9E;;
+    border-radius: 20px;
+    margin: 1% 0;
+    width: 90%;
+    padding: 0.5% 1.5%;
+    
+}
+
+.DivAddPostContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.DivWrapImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Image{
+    display: block;
+}
+
+.InputText{
+    background: #FCFCFC;
+    border-radius: 23px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(49, 49, 49, 0.5);
+    border: none;
+    padding: 0 1%;
+    width: 75%;
+}
+
+.InputFile{
+    display: none;
+}
