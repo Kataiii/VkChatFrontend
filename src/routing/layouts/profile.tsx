@@ -1,9 +1,9 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useLocation, useNavigate } from "react-router-dom";
 import styles from "./css/App.module.css";
 import AuthorisedHeader from "../../shared/ui/AuthorisedHeader";
 import stylesSidePanel from "./css/StylesSidePanel.module.css";
-import { DropdownButtonItem } from "../../shared/ui/DropDownMenu";
-import { useMemo } from "react";
+import { useEffect, useMemo } from "react";
+import { ID_USER } from "../../store/stateApp";
 
 export interface LinkItem {
     label: string,
@@ -11,6 +11,12 @@ export interface LinkItem {
   }
 
 export default function Root() {
+    const locate = useLocation();
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        if(locate.pathname == '/profile') navigate('/profile/'+ String(ID_USER));
+    }, [locate.pathname])
 
     const LinkItems = useMemo<LinkItem[]>(() => [
         {

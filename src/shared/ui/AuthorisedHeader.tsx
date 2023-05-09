@@ -13,7 +13,7 @@ const AuthorisedHeader = () => {
       {
         label: 'Мои профиль',
         //TODO добавить id usera в путь
-        action: () => navigate('/profile')
+        action: () => navigate('1')
       },
       {
         label: 'Выйти',

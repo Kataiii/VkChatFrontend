@@ -34,7 +34,7 @@ class Regist {
                 console.log(response);
                 // this.visibleError(false);
                  this.formRegist.isRegist = true;
-                 localStorage.setItem('token', response.data.token);
+                 //localStorage.setItem('token', response.data.token);
             }
             )
             .catch((error) => {

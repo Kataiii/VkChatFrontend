@@ -16,6 +16,18 @@ export type FormValues = {
     isRegist : boolean;
 };
 
+export interface UserData{
+    id: number;
+    login: string;
+    surname: string;
+    firstname: string;
+    pathronomyc?: string;
+    age: number;
+    city: string;
+    univercity: string;
+    profile_picture: string;
+}
+
 export const schemaPersonRegist = object().shape({
     login: string().required("Поле обязательно для заполнения"),
     email: string()

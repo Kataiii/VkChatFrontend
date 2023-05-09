@@ -1,0 +1,48 @@
+.DivCard{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.DivAvatar{
+    display: block;
+    margin-right: 5%;
+}
+
+.DivContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 200px;
+}
+
+.DivTitle{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #313131;
+    margin: 0;
+    line-height: 28px;
+}
+
+.DivWrapLocation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Content{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 24px;
+    color: #313131;
+    margin: 0;
+}
+
+.DivLocate{
+    display: flex;
+}
